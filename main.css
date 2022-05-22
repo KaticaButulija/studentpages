@@ -1,0 +1,130 @@
+
+body {
+	margin:0px;
+	padding:0px;
+}
+.header {
+	border-bottom:2px solid #dc0101;
+}
+.page {
+	
+}
+.footer {
+	
+	
+	
+}
+
+.column {
+	
+	width:1000px;
+margin:0px auto;
+	
+
+}
+.page .column{
+	height:100vh;
+}
+
+#logo-i-social {
+	
+	display:flex;
+}
+#logo-holder {
+	
+	flex-grow:1;
+}
+#social-holder {
+	
+	flex-grow:1;
+	text-align:right;
+}
+#main-menu {
+	display:flex;
+	
+}
+#main-menu a {
+	flex-grow:1;
+	text-align:center;
+	display:block;
+	padding:10px 0px;
+	text-decoration:none;
+	color:#dc0101;
+	transition:400ms;
+}
+#main-menu a:hover,
+#main-menu a.active
+ {
+	background:#dc0101;
+	color:#ffffff;
+}
+#social-holder a img {
+	margin:5px;
+	height:24px;
+	width:24px;
+}
+#social-holder a {
+	
+	text-decoration:none;
+}
+#logo-holder  img{
+	height:24px;
+	width:24px;
+}
+#pocetna {
+	text-align:center;
+	color:#ffffff;
+	background:url("C:/Users/Think/Desktop/OOM/img/p.jpg");
+		background-size:cover;
+		background-attachment:fixed;
+} 
+#pocetna h1 {
+	font-size:48pt;
+	margin-top:0px;
+	padding-top:50px;
+}
+.dark-box{
+	background-color:#22222250;
+	border:1px solid #ffffff;
+	font-size:24pt;
+	padding:40px;
+}
+.align-center {
+	text-align:center;
+}
+.krugovi {
+	display:flex;
+	margin:25px 0;
+}
+.krug-holder {
+	
+
+	flex-grow:1;
+	
+}
+.krug {
+	background:#dc0101;
+	color:fff;
+	font-size:48px;
+	font-weight:bold;
+	border-radius:50%;
+	display:inline-block;
+	padding:25%;
+	width:50px;
+	height:50px;
+	
+}
+.oznaka {
+	font-size:24px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+
+.tehnologije {
+	display:flex;
+}
+.tehnologija  {
+	flex-grow:1;
+	
+}
